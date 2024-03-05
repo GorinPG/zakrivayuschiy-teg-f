@@ -1,1 +1,15 @@
 /* В этом файле будут храниться все значения переменных в исходном состоянии, а так же их изменения в зависимости от ширины устройства */
+
+
+:root{
+    --accent-color: #000;
+    --background-color: #FFF;
+    --background-image:
+      repeating-linear-gradient(to right, #d3d3d3, transparent 2px),
+      repeating-linear-gradient(to bottom, #d3d3d3, transparent 2px),
+      linear-gradient(#e7e7e7 0.01%, #1a1a1a);
+    --button-color: #FFF;
+    --normal-font-weight: 400;
+    --bold-font-weight: 700;
+    --content-wdth: clamp(320px, 100%, 700px);
+}
